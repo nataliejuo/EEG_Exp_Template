@@ -18,15 +18,15 @@ clear
 close all
 
 % set EEGLAB Path (if not already set)
-eeglabDir = '/Users/tombullock/Documents/Psychology/ATTLAB_Repos/EEG_Exp_Template/eeglab2019_1';
+eeglabDir = 'C:/Users/natal/OneDrive/Documents/Lab/GitFolder/EEG_Exp_Template/eeglab2019_1';
 if ~exist('eeglab.m')
     cd(eeglabDir);eeglab;clear;close all;cd ..
 else
-    eeglabDir = '/Users/tombullock/Documents/Psychology/ATTLAB_Repos/EEG_Exp_Template/eeglab2019_1';
+    eeglabDir = 'C:/Users/natal/OneDrive/Documents/Lab/GitFolder/EEG_Exp_Template/eeglab2019_1';
 end
 
 % set directories
-rDir = '/Users/tombullock/Documents/Psychology/ATTLAB_Repos/EEG_Exp_Template';
+rDir = 'C:/Users/natal/OneDrive/Documents/Lab/GitFolder/EEG_Exp_Template';
 sourceDir = [rDir '/' 'EEG_Prepro2'];  
 destDir = [rDir '/' 'EEG_Prepro3']; 
 
